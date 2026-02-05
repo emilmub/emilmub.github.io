@@ -6,3 +6,46 @@ body {
     width: 300px;
     border-radius: 30%;
 }
+
+.main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.side-navbar {
+    width: 260px;
+    min-width: 260px;
+    position: sticky;
+    height: 100vh;
+    border-right: 1px solid black;
+}
+
+.sidebar-section {
+    border-bottom: 1px solid black;
+    margin: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.sidebar-section:last-child {
+    border: none;
+}
+
+.name {
+    font-size: larger;
+}
+
+.sidebar-section h3 {
+    font-size: 16px;
+}
+
+.sidebar-section p {
+    font-size: 14px;
+}
+
+.side-navbar li {
+    margin-bottom: 1rem;
+}
+
+.content {
+    padding-left: 2rem;
+}
