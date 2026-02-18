@@ -19,6 +19,12 @@ a:visited {
     margin-top: 2.5rem;
 }
 
+#Emil_Paris {
+    width: 300px;
+    border-radius: 30%;
+    margin-top: 2.5rem;
+}
+
 .main {
     display: flex;
     min-height: 100vh;
