@@ -1,0 +1,61 @@
+h4 {
+    display: block;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 4rem 0;
+
+}
+
+.content {
+    padding-left: 5rem;
+}
+
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 240px;
+    border: 2px solid rgba(255, 220, 170, 0.15);
+    border-radius: 10px;
+    margin: 5px 10px 5px 0px;
+}
+
+.project-card-image {
+    width: 300px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card-info {
+    width: 300px;
+    height: 100px;
+    background-color: #5a3232;
+    border-radius: 0 0 8px 8px;
+}
+
+.project-card-time {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    color: #ccb893
+}
+
+.project-card-title {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+}
+
+
+.project-card-description {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    color: #ccb893
+}
